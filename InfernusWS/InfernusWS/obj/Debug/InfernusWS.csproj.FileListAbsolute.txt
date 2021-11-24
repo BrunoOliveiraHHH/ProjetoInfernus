@@ -1,0 +1,17 @@
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusWS.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusWS.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\obj\Debug\InfernusWS.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\obj\Debug\InfernusWS.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusService.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusDAO.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\Infernus.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusService.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\bin\InfernusDAO.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\InfernusWS\InfernusWS\obj\Debug\InfernusWS.csprojResolveAssemblyReference.cache
+C:\InfernusProject\InfernusWS.dll
+C:\InfernusProject\InfernusWS.pdb
+C:\InfernusProject\bin\InfernusWS.dll
+C:\InfernusProject\bin\InfernusWS.pdb
+C:\InfernusProject\InfernusWS\InfernusWS\obj\Debug\InfernusWS.csprojResolveAssemblyReference.cache
+C:\InfernusProject\InfernusWS\InfernusWS\obj\Debug\InfernusWS.dll
+C:\InfernusProject\InfernusWS\InfernusWS\obj\Debug\InfernusWS.pdb

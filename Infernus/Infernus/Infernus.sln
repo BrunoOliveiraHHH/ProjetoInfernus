@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infernus", "Infernus.csproj", "{8BC6B561-285D-4782-8B2E-98C049A14D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernusDAO", "..\InfernusDAO\InfernusDAO.csproj", "{91839D5C-A94C-4ACB-97C8-615281A7622C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernusService", "..\InfernusService\InfernusService.csproj", "{7C1E2BF1-BC13-41D4-97EC-04023F6A5CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC6B561-285D-4782-8B2E-98C049A14D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC6B561-285D-4782-8B2E-98C049A14D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC6B561-285D-4782-8B2E-98C049A14D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC6B561-285D-4782-8B2E-98C049A14D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91839D5C-A94C-4ACB-97C8-615281A7622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91839D5C-A94C-4ACB-97C8-615281A7622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91839D5C-A94C-4ACB-97C8-615281A7622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91839D5C-A94C-4ACB-97C8-615281A7622C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1E2BF1-BC13-41D4-97EC-04023F6A5CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1E2BF1-BC13-41D4-97EC-04023F6A5CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1E2BF1-BC13-41D4-97EC-04023F6A5CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1E2BF1-BC13-41D4-97EC-04023F6A5CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

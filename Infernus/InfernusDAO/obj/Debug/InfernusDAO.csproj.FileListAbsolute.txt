@@ -1,0 +1,14 @@
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusDAO\bin\Debug\InfernusDAO.dll.config
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusDAO\bin\Debug\InfernusDAO.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusDAO\bin\Debug\InfernusDAO.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusDAO\obj\Debug\InfernusDAO.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusDAO\obj\Debug\InfernusDAO.pdb
+C:\InfernusProject\InfernusDAO.dll.config
+C:\InfernusProject\InfernusDAO.dll
+C:\InfernusProject\InfernusDAO.pdb
+C:\InfernusProject\bin\InfernusDAO.dll.config
+C:\InfernusProject\bin\InfernusDAO.dll
+C:\InfernusProject\bin\InfernusDAO.pdb
+C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.dll
+C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.pdb
+C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.csprojResolveAssemblyReference.cache

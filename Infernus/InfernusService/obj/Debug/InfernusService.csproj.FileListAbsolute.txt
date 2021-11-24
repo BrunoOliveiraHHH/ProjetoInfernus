@@ -1,0 +1,14 @@
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\bin\Debug\InfernusService.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\bin\Debug\InfernusService.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\bin\Debug\InfernusDAO.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\bin\Debug\InfernusDAO.pdb
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\obj\Debug\InfernusService.csprojResolveAssemblyReference.cache
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\obj\Debug\InfernusService.dll
+C:\Users\bruno.d.oliveira\Desktop\Ferramentas\MyPrjoects\Infernus\InfernusService\obj\Debug\InfernusService.pdb
+C:\InfernusProject\InfernusService.dll
+C:\InfernusProject\InfernusService.pdb
+C:\InfernusProject\bin\InfernusService.dll
+C:\InfernusProject\bin\InfernusService.pdb
+C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.csprojResolveAssemblyReference.cache
+C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.dll
+C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.pdb

@@ -25,3 +25,6 @@ C:\InfernusProject\InfernusApp\InfernusApp\bin\Debug\InfernusApp.exe.manifest
 C:\InfernusProject\InfernusApp\InfernusApp\bin\Debug\InfernusApp.application
 C:\InfernusProject\InfernusApp\InfernusApp\obj\x86\Debug\InfernusApp.exe.manifest
 C:\InfernusProject\InfernusApp\InfernusApp\obj\x86\Debug\InfernusApp.application
+C:\ProjetoInfernus\InfernusApp\InfernusApp\bin\Debug\InfernusApp.exe.config
+C:\ProjetoInfernus\InfernusApp\InfernusApp\obj\x86\Debug\InfernusApp.exe
+C:\ProjetoInfernus\InfernusApp\InfernusApp\obj\x86\Debug\InfernusApp.pdb

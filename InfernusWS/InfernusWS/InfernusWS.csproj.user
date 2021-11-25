@@ -4,7 +4,7 @@
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup>
-    <ReferencePath>C:\InfernusProject\bin\</ReferencePath>
+    <ReferencePath>C:\ProjetoInfernus\bin\</ReferencePath>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

@@ -14,3 +14,8 @@ C:\InfernusProject\bin\Infernus.pdb
 C:\InfernusProject\Infernus\Infernus\obj\Debug\Infernus.csprojResolveAssemblyReference.cache
 C:\InfernusProject\Infernus\Infernus\obj\Debug\Infernus.dll
 C:\InfernusProject\Infernus\Infernus\obj\Debug\Infernus.pdb
+C:\ProjetoInfernus\bin\Infernus.dll
+C:\ProjetoInfernus\bin\Infernus.pdb
+C:\ProjetoInfernus\Infernus\Infernus\obj\Debug\Infernus.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\Infernus\Infernus\obj\Debug\Infernus.dll
+C:\ProjetoInfernus\Infernus\Infernus\obj\Debug\Infernus.pdb

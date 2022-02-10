@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernusApp", "InfernusApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernusAppService", "..\InfernusAppService\InfernusAppService.csproj", "{B7419755-7474-4C49-A5A5-2BB941359DB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfernusMonsterApp", "..\InfernusMonsterApp\InfernusMonsterApp.csproj", "{D21D08FA-5416-4BCD-9842-0A49D8A1070A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,16 @@ Global
 		{B7419755-7474-4C49-A5A5-2BB941359DB5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B7419755-7474-4C49-A5A5-2BB941359DB5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B7419755-7474-4C49-A5A5-2BB941359DB5}.Release|x86.ActiveCfg = Release|Any CPU
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Debug|x86.ActiveCfg = Debug|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Debug|x86.Build.0 = Debug|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Release|Any CPU.ActiveCfg = Release|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Release|x86.ActiveCfg = Release|x86
+		{D21D08FA-5416-4BCD-9842-0A49D8A1070A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

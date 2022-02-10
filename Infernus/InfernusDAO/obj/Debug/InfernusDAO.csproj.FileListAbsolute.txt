@@ -12,3 +12,9 @@ C:\InfernusProject\bin\InfernusDAO.pdb
 C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.dll
 C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.pdb
 C:\InfernusProject\Infernus\InfernusDAO\obj\Debug\InfernusDAO.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\bin\InfernusDAO.dll.config
+C:\ProjetoInfernus\bin\InfernusDAO.dll
+C:\ProjetoInfernus\bin\InfernusDAO.pdb
+C:\ProjetoInfernus\Infernus\InfernusDAO\obj\Debug\InfernusDAO.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\Infernus\InfernusDAO\obj\Debug\InfernusDAO.dll
+C:\ProjetoInfernus\Infernus\InfernusDAO\obj\Debug\InfernusDAO.pdb

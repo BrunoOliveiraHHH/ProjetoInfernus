@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RPG - Monstro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/444399.png" type="image/x-icon">
+</head>
+
+<body background="https://lolstatic-a.akamaihd.net/site/skins-zombie-slayer/e00a99695f876daa0d2226f82576e6a0ac80082f/images/artwork/login-1920x1080.jpg" style="background-repeat: no-repeat;">
+    <ul class="pagination justify-content-center" style="margin: 20px 0">
+        <li class="page-item">
+            <a class="page-link" href="item.html">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="index.html">Index</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="attachment.html">Anexos</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="arma.html">Arma</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="armadura.html">Armadura</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="item.html">Item</a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="monstro.html">Monstro</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="municaoarmas.html">Munição</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="npc.html">NPC</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="skill.html">Skill</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="veiculo.html">Veículo</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="municaoarmas.html">Next</a>
+        </li>
+    </ul>
+    <p class="text-white">Cadastro de Monstro</p>
+
+    <form method="post" class="needs-validation" novalidate>
+
+        <div class="form-group">
+            <label class="text-white" for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome" value="" name="nome" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="tipo">Tipo:</label>
+            <select class="custom-select-sm" id="tipo" name="tipo" required>
+            <option selected value="">Escolha o tipo da criatura</option>
+            <option value="Bestas">Bestas</option>
+            <option value="Celestial">Celestial</option>
+            <option value="Constructo">Constructo</option>
+            <option value="Corruptor">Corruptor</option>
+            <option value="Humanoide">Humanoide</option>
+            <option value="Monstruosidade">Monstruosidade</option>
+            <option value="Morto-Vivo">Morto-Vivo</option>           
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+
+        <div class="form-group float-left">
+            <label class="text-white" for="tamanho">Tamanho:</label>
+            <select class="custom-select-sm" id="tamanho" name="tamanho" required>
+            <option selected value="">Escolha o tamanho da criatura</option>
+            <option value="Miúdo">Miúdo</option>
+            <option value="Pequeno">Pequeno</option>
+            <option value="Médio">Médio</option>
+            <option value="Grande">Grande</option>
+            <option value="Enorme">Enorme</option>
+            <option value="Imenso">Imenso</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="tendencia">Tendencia:</label>
+            <select class="custom-select-sm" id="tendencia" name="tendencia" required>
+            <option selected value="">Escolha a tendencia da criatura</option>
+            <option value="Leal e Bom">Leal e Bom</option>
+            <option value="Neutro e Bom">Neutro e Bom</option>
+            <option value="Caótico e Bom">Caótico e Bom</option>
+            <option value="Neutro">Neutro</option>
+            <option value="Neutro e Leal">Neutro e Leal</option>
+            <option value="Neutro e Caótico">Neutro e Caótico</option>
+            <option value="Leal e Mal">Leal e Mal</option>
+            <option value="Neutro e Mal">Neutro e Mal</option>
+            <option value="Caótico e Mal">Caótico e Mal</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="desloc">Deslocamento:</label>
+            <input type="text" class="form-control-sm" id="desloc" placeholder="Deslocamento Terrestre (Valor+m)" value="" name="desloc_t" required />
+            <input type="text" class="form-control-sm" id="desloc" placeholder="Deslocamento Voo(Valor+m)" value="" name="desloc_v" />
+            <input type="text" class="form-control-sm" id="desloc" placeholder="Deslocamento Natação(Valor+m)" value="" name="desloc_n" />
+            <input type="text" class="form-control-sm" id="desloc" placeholder="Deslocamento Subterraneo(Valor+m)" value="" name="desloc_s" />
+            <input type="text" class="form-control-sm" id="desloc" placeholder="Deslocamento Escalada(Valor+m)" value="" name="desloc_e" />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="hp">HP:</label>
+            <input type="text" class="form-control-sm" id="hp" placeholder="HP" value="" name="hp" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="ca">CA:</label>
+            <input type="text" class="form-control-sm" id="ca" placeholder="CA" value="" name="ca" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="nd">ND:</label>
+            <select name="nd" id="nd" class="custom-select-sm" required>
+            <option selected value="">ND</option>
+            <option value="0(10XP)">0</option>
+            <option value="1/8(25XP)">1/8</option>
+            <option value="1/4(50XP)">1/4</option>
+            <option value="1/2(100XP)">1/2</option>
+            <option value="1(200XP)">1</option>
+            <option value="2(450XP)">2</option>
+            <option value="3(700XP)">3</option>
+            <option value="4(1.100XP)">4</option>
+            <option value="5(1.800XP)">5</option>
+            <option value="6(1.800XP)">6</option>
+            <option value="7(2.900XP)">7</option>
+            <option value="8(3.900XP)">8</option>
+            <option value="9(5.000XP)">9</option>
+            <option value="10(5.900XP)">10</option>
+            <option value="11(7.200XP)">11</option>
+            <option value="12(8.400XP)">12</option>
+            <option value="13(10.000XP)">13</option>
+            <option value="14(11.500XP)">14</option>
+            <option value="15(13.000XP)">15</option>
+            <option value="16(15.000XP)">16</option>
+            <option value="17(18.000XP)">17</option>
+            <option value="18(20.000XP)">18</option>
+            <option value="19(22.000XP)">19</option>
+            <option value="20(25.000XP)">20</option>
+            <option value="21(33.000XP)">21</option>
+            <option value="22(41.000XP)">22</option>
+            <option value="23(50.000XP)">23</option>
+            <option value="24(62.000XP)">24</option>
+            <option value="25(75.000XP)">25</option>
+            <option value="26(90.000XP)">26</option>
+            <option value="27(105.000XP)">27</option>
+            <option value="28(120.000XP)">28</option>
+            <option value="29(135.000XP)">29</option>
+            <option value="30(155.000XP)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="bp">BP por ND:</label>
+            <select name="bp" id="bp" class="custom-select-sm" required>
+            <option selected value="">ND</option>
+            <option value="+2">0</option>
+            <option value="+2">1/8</option>
+            <option value="+2">1/4</option>
+            <option value="+2">1/2</option>
+            <option value="+2">1</option>
+            <option value="+2">2</option>
+            <option value="+2">3</option>
+            <option value="+2">4</option>
+            <option value="+3">5</option>
+            <option value="+3">6</option>
+            <option value="+3">7</option>
+            <option value="+3">8</option>
+            <option value="+4">9</option>
+            <option value="+4">10</option>
+            <option value="+4">11</option>
+            <option value="+4">12</option>
+            <option value="+5">13</option>
+            <option value="+5">14</option>
+            <option value="+5">15</option>
+            <option value="+5">16</option>
+            <option value="+6">17</option>
+            <option value="+6">18</option>
+            <option value="+6">19</option>
+            <option value="+6">20</option>
+            <option value="+7">21</option>
+            <option value="+7">22</option>
+            <option value="+7">23</option>
+            <option value="+7">24</option>
+            <option value="+8">25</option>
+            <option value="+8">26</option>
+            <option value="+8">27</option>
+            <option value="+8">28</option>
+            <option value="+9">29</option>
+            <option value="+9">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="str">Forca:</label>
+            <select name="str" id="str" class="custom-select-sm" required>
+            <option selected value="">Força</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="dex">Destreza:</label>
+            <select name="dex" id="dex" class="custom-select-sm" required>
+            <option selected value="">Destreza</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="con">Constituição:</label>
+            <select name="con" id="con" class="custom-select-sm" required>
+            <option selected value="">Constituição</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="inte">Inteligencia:</label>
+            <select name="inte" id="inte" class="custom-select-sm" required>
+            <option selected value="">Inteligencia</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="wis">Sabedoria:</label>
+            <select name="wis" id="wis" class="custom-select-sm" required>
+            <option selected value="">Sabedoria</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="cha">Carisma:</label>
+            <select name="cha" id="cha" class="custom-select-sm" required>
+            <option selected value="">Carisma</option>
+            <option value="1(-5)">1</option>
+            <option value="2(-4)">2</option>
+            <option value="3(-4)">3</option>
+            <option value="4(-3)">4</option>
+            <option value="5(-3)">5</option>
+            <option value="6(-2)">6</option>
+            <option value="7(-2)">7</option>
+            <option value="8(-1)">8</option>
+            <option value="9(-1)">9</option>
+            <option value="10(0)">10</option>
+            <option value="11(0)">11</option>
+            <option value="12(+1)">12</option>
+            <option value="13(+1)">13</option>
+            <option value="14(+2)">14</option>
+            <option value="15(+2)">15</option>
+            <option value="16(+3)">16</option>
+            <option value="17(+3)">17</option>
+            <option value="18(+4)">18</option>
+            <option value="19(+4)">19</option>
+            <option value="20(+5)">20</option>
+            <option value="21(+5)">21</option>
+            <option value="22(+6)">22</option>
+            <option value="23(+6)">23</option>
+            <option value="24(+7)">24</option>
+            <option value="25(+7">25</option>
+            <option value="26(+8)">26</option>
+            <option value="27(+8)">27</option>
+            <option value="28(+9)">28</option>
+            <option value="29(+9)">29</option>
+            <option value="30(+10)">30</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="tracos">Traços Gerais:</label>
+            <input type="text" class="form-control" id="tracos" placeholder="Traços Gerais" value="" name="tracos" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="caracteristicas">Caracteristicas:</label>
+            <input type="text" class="form-control" id="caracteristicas" placeholder="Caracteristicas" value="" name="caracteristicas" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="acoes">Ações:</label>
+            <input type="text" class="form-control" id="acoes" placeholder="Ações" value="" name="acoes" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <p class="text-white">
+            <input type="checkbox" data-toggle="collapse" data-target="#demo" />Possui Ação Lendaria?</p>
+        <div id="demo" class="collapse">
+            <div class="form-group">
+                <label class="text-white" for="acoeslendarias">Ações Lendarias:</label>
+                <input type="text" class="form-control" id="acoeslendarias" placeholder="Ações Lendarias" value="" name="acoeslendarias" />
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>

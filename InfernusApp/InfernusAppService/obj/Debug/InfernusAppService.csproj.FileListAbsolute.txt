@@ -10,3 +10,15 @@ C:\InfernusProject\InfernusApp\InfernusAppService\bin\Debug\InfernusService.pdb
 C:\InfernusProject\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.dll
 C:\InfernusProject\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.pdb
 C:\InfernusProject\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusAppService.dll.config
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusAppService.dll
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusAppService.pdb
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\Infernus.dll
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusDAO.dll
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusService.dll
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\Infernus.pdb
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusDAO.pdb
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\bin\Debug\InfernusService.pdb
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.dll
+C:\ProjetoInfernus\InfernusApp\InfernusAppService\obj\Debug\InfernusAppService.pdb

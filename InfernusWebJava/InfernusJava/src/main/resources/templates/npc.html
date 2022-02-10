@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RPG - NPC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/444399.png" type="image/x-icon">
+</head>
+
+<body background="https://lolstatic-a.akamaihd.net/site/skins-zombie-slayer/e00a99695f876daa0d2226f82576e6a0ac80082f/images/artwork/login-1920x1080.jpg" style="background-repeat: no-repeat;">
+    <ul class="pagination justify-content-center" style="margin: 20px 0">
+        <li class="page-item">
+            <a class="page-link" href="municaoarmas.html">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="index.html">Index</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="attachment.html">Anexos</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="arma.html">Arma</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="armadura.html">Armadura</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="item.html">Item</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="monstro.html">Monstro</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="municaoarmas.html">Munição</a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="npc.html">NPC</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="skill.html">Skill</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="veiculo.html">Veículo</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="skill.html">Next</a>
+        </li>
+    </ul>
+    <p class="text-white">Cadastro de NPC</p>
+    <form method="post" class="needs-validation" novalidate>
+
+        <div class="form-group">
+            <label class="text-white" for="nome">Nome:</label>
+            <input type="text" class="form-control-sm" id="nome" placeholder="Nome+Sobrenome" value="" name="nome" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="idade">Idade:</label>
+            <input type="text" class="form-control-sm" id="idade" placeholder="Idade" value="" name="idade" required />
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="raca">Raça:</label>
+            <select name="raca" class="custom-select-sm" id="raca" required>
+            <option selected value="">Escolha a Raça</option>
+            <option value="Humano">Humano</option>
+            <option value="Meio-Zumbi">Meio-Zumbi</option>
+            <option value="Zumbi">Zumbi</option>
+          </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="classe">Classe:</label>
+            <select name="classe" id="classe" class="custom-select-sm" required>
+            <option selected value="">Escolha a Classe</option>
+            <option value="Guarda-Costa">Guarda-Costa</option>
+            <option value="Médico de Campo">Médico de Campo</option>
+            <option value="Pistoleiro">Pistoleiro</option>
+            <option value="Infiltrador">Infiltrador</option>
+            <option value="Artista Macial">Artista Macial</option>
+            <option value="Soldado">Soldado</option>
+          </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>

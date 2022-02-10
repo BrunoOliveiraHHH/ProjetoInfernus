@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RPG</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/444399.png" type="image/x-icon">
+</head>
+
+<body background="https://lolstatic-a.akamaihd.net/site/skins-zombie-slayer/e00a99695f876daa0d2226f82576e6a0ac80082f/images/artwork/login-1920x1080.jpg" style="background-repeat: no-repeat;">
+    <ul class="pagination justify-content-center" style="margin: 20px 0">
+        <li class="page-item">
+            <a class="page-link" href="arma.html">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="index.html">Index</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="attachment.html">Anexos</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="arma.html">Arma</a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="armadura.html">Armadura</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="item.html">Item</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="monstro.html">Monstro</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="municaoarmas.html">Munição</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="npc.html">NPC</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="skill.html">Skill</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="veiculo.html">Veículo</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="item.html">Next</a>
+        </li>
+    </ul>
+    <p class="text-white">Cadastro de Armadura</p>
+
+    <form method="post" class="needs-validation" novalidate>
+
+
+
+        <div class="form-group">
+            <label class="text-white" for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome" value="" name="nome" required /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="tipo">Tipo:</label>
+            <select name="tipo" id="tipo" class="custom-select-sm" required>
+            <option selected value="">Escolha o tipo da armadura</option>
+            <option value="Armaduras Leves">Armaduras Leves</option>
+            <option value="Armaduras Médias">Armaduras Médias</option>
+            <option value="Armaduras Pesadas">Armaduras Pesadas</option>
+          </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="custo">Custo:</label>
+            <input type="text" class="form-control-sm" id="custo" placeholder="Custo (Valor+Moeda)" value="" name="custo" required /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="ca">CA:</label>
+            <input type="text" class="form-control-sm" id="ca" placeholder="CA" value="" name="ca" required /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group float-left">
+            <label class="text-white" for="peso">Peso:</label>
+            <input type="text" class="form-control-sm" id="peso" placeholder="Peso (Valor+Kg)" value="" name="peso" required /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="forca">Forca:</label>
+            <input type="text" class="form-control-sm" id="forca" placeholder="Forca" value="" name="forca" required /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="furtv">Furtividade:</label>
+            <select name="furtv" id="furtv" class="custom-select" required>
+            <option selected value="">Escolha a se tem Desvantagem ou Não-Desvantagem</option>
+            <option value="Desvantagem">Desvantagem</option>
+            <option value="X">Não-Desvantagem</option>
+            </select>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <div class="form-group">
+            <label class="text-white" for="observacao">Observacao:</label>
+            <input type="text" class="form-control" id="observacao" placeholder="Observacao" value="" name="observacao" /><br>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Por Favor Preencha o Campo.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>

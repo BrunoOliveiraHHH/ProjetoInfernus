@@ -104,5 +104,12 @@ namespace InfernusDAO
 
             return dtSaida;
         }
+
+        public DataTable consultaItemArma(int idArma)
+        {
+            DataTable dtSaida = null;
+
+            return dtSaida;
+        }
     }
 }

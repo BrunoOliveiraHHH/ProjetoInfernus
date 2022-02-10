@@ -12,3 +12,8 @@ C:\InfernusProject\bin\InfernusService.pdb
 C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.csprojResolveAssemblyReference.cache
 C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.dll
 C:\InfernusProject\Infernus\InfernusService\obj\Debug\InfernusService.pdb
+C:\ProjetoInfernus\bin\InfernusService.dll
+C:\ProjetoInfernus\bin\InfernusService.pdb
+C:\ProjetoInfernus\Infernus\InfernusService\obj\Debug\InfernusService.csprojResolveAssemblyReference.cache
+C:\ProjetoInfernus\Infernus\InfernusService\obj\Debug\InfernusService.dll
+C:\ProjetoInfernus\Infernus\InfernusService\obj\Debug\InfernusService.pdb

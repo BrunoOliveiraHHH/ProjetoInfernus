@@ -38,26 +38,30 @@ public class ArmaduraServiceImpl implements ArmaduraService {
 		_dao = new ArmaduraDAOImpl(jdbcURL, jdbcUsername, jdbcPassword);
 		_util = new ValidacoesUtil();
 
-		if (!_util.validaCampoInteger(input.getId())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getNome())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getTipo())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getCusto())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getCa())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getForca())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getFurtv())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getPeso())) {
-			return false;
-		} else if (!_util.validaCampoString(input.getObservacao())) {
-			return false;
+		if (input != null) {
+			if (!_util.validaCampoInteger(input.getId())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getNome())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getTipo())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getCusto())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getCa())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getForca())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getFurtv())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getPeso())) {
+				return false;
+			} else if (!_util.validaCampoString(input.getObservacao())) {
+				return false;
+			} else {
+				return _dao.inserirArmdura(input);
+			}
 		} else {
-			return _dao.inserirArmdura(input);
+			return false;
 		}
 
 	}
